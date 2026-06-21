@@ -25,20 +25,6 @@ Proyecto de diseño de infraestructura de red de área local aplicando **Variabl
 | `*.pdf` | Informe técnico con análisis de la segmentación |
 | `*.docx` | Desarrollo detallado del laboratorio |
 
-## Conceptos aplicados
-
-- Subnetting con VLSM para optimización del espacio de direcciones
-- Cálculo de rangos de host, broadcast y máscara por subred
-- Topología lógica de red LAN con switches y routers
-- Verificación de conectividad entre subredes
-
-## Contexto académico
-
-**Asignatura:** Redes de Computadores · **Institución:** Ingeniería Informática
-**Autor:** Alejandro De Mendoza — Ingeniero Informático · Máster Arquitectura de Software
-
----
-
 ## Arquitectura
 
 ```mermaid
@@ -55,6 +41,20 @@ flowchart TD
     I -- Exitosa --> J[Informe tecnico PDF + DOCX]
     J --> K[Red LAN operativa]
 ```
+
+## Conceptos aplicados
+
+- Subnetting con VLSM para optimización del espacio de direcciones
+- Cálculo de rangos de host, broadcast y máscara por subred
+- Topología lógica de red LAN con switches y routers
+- Verificación de conectividad entre subredes
+
+## Contexto académico
+
+**Asignatura:** Redes de Computadores · **Institución:** Ingeniería Informática
+**Autor:** Alejandro De Mendoza — Ingeniero Informático · Máster Arquitectura de Software
+
+---
 
 ## Autor
 
