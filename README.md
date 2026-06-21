@@ -1,3 +1,5 @@
+<div align="center">
+
 # Direccionamiento Red LAN — VLSM
 
 ![Networking](https://img.shields.io/badge/Networking-LAN-0078D4?style=for-the-badge)
@@ -7,6 +9,10 @@
 > Diseño y segmentación de red LAN con VLSM simulada en Cisco Packet Tracer.
 
 ## Descripción
+
+</div>
+
+---
 
 Proyecto de diseño de infraestructura de red de área local aplicando **Variable Length Subnet Masking (VLSM)** para una segmentación eficiente del espacio de direccionamiento IPv4. Incluye tablas de subredes, plan de direccionamiento completo y simulación del esquema en **Cisco Packet Tracer**.
 
@@ -30,3 +36,12 @@ Proyecto de diseño de infraestructura de red de área local aplicando **Variabl
 
 **Asignatura:** Redes de Computadores · **Institución:** Ingeniería Informática
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Máster Arquitectura de Software
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
