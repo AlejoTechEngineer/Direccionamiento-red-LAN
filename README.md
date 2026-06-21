@@ -39,6 +39,23 @@ Proyecto de diseño de infraestructura de red de área local aplicando **Variabl
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Requerimiento de red LAN] --> B[Calculo VLSM - Tablas.xlsx]
+    B --> C{Subred}
+    C --> D[Subred 1 - Rango hosts + Broadcast]
+    C --> E[Subred 2 - Rango hosts + Broadcast]
+    C --> F[Subred N - Rango hosts + Broadcast]
+    D & E & F --> G[Diseno topologia logica - Switches y Routers]
+    G --> H[Simulacion en Cisco Packet Tracer *.pkt]
+    H --> I{Verificacion conectividad}
+    I -- Fallo --> B
+    I -- Exitosa --> J[Informe tecnico PDF + DOCX]
+    J --> K[Red LAN operativa]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
